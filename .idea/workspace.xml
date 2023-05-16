@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ab57acc-0cfe-44dc-bb81-26504193a2b9" name="변경" comment="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용">
+      <change beforePath="$PROJECT_DIR$/react_typescript_noona" beforeDir="false" afterPath="$PROJECT_DIR$/react_typescript_noona" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react_typescript_noona" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ppf10wQvaHorA4PdeyU1ZJRJkK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/intellijProjects/react_typescript_noona&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\intellijProjects\\react_typescript_noona\\react_typescript_noona\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="9ab57acc-0cfe-44dc-bb81-26504193a2b9" name="변경" comment="" />
+      <created>1684158725439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684158725439</updated>
+      <workItem from="1684158726468" duration="4581000" />
+      <workItem from="1684234023777" duration="4016000" />
+    </task>
+    <task id="LOCAL-00001" summary="set: tsconfig change">
+      <created>1684159390280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684159390280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 식당 정보 및 메뉴 데이터 생성 및 타입 설정&#10;&#10;- data : 식당 정보 및 메뉴 데이터 생성, model 에 restaurant.ts 에서 작성한 타입 설정&#10;&#10;- model 폴더 생성 후 restaurant.ts 파일에 식당 정보 및 메뉴 데이터에 대한 타입 설정 후 내보내기&#10;&#10;- Store 컴포넌트 생성 후 App.tsx 에 컴포넌트 출력, Store 에서는 식당 정보 및 메뉴 정보를 담고 있음">
+      <created>1684161593057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684161593057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 주소 변경 기능 추가 및 베스트 메뉴 추가&#10;&#10;- BestMenu 컴포넌트 생성 후 베스트 메뉴 이름">
+      <created>1684162770257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684162770257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 주소 변경 기능 추가 및 베스트 메뉴 추가&#10;&#10;- BestMenu 컴포넌트 생성 후 베스트 메뉴 이름">
+      <created>1684163220801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684163220801</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용">
+      <created>1684249252966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249252966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="set: tsconfig change" />
+    <MESSAGE value="feat: 식당 정보 및 메뉴 데이터 생성 및 타입 설정&#10;&#10;- data : 식당 정보 및 메뉴 데이터 생성, model 에 restaurant.ts 에서 작성한 타입 설정&#10;&#10;- model 폴더 생성 후 restaurant.ts 파일에 식당 정보 및 메뉴 데이터에 대한 타입 설정 후 내보내기&#10;&#10;- Store 컴포넌트 생성 후 App.tsx 에 컴포넌트 출력, Store 에서는 식당 정보 및 메뉴 정보를 담고 있음" />
+    <MESSAGE value="feat: 주소 변경 기능 추가 및 베스트 메뉴 추가&#10;&#10;- BestMenu 컴포넌트 생성 후 베스트 메뉴 이름" />
+    <MESSAGE value="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용" />
+  </component>
+</project>
