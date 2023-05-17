@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ab57acc-0cfe-44dc-bb81-26504193a2b9" name="변경" comment="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용">
       <change beforePath="$PROJECT_DIR$/react_typescript_noona" beforeDir="false" afterPath="$PROJECT_DIR$/react_typescript_noona" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_typescript_noona/src/model/restaurant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react_typescript_noona/src/model/restaurant.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1684158725439</updated>
       <workItem from="1684158726468" duration="4581000" />
-      <workItem from="1684234023777" duration="4016000" />
+      <workItem from="1684234023777" duration="4200000" />
+      <workItem from="1684334094921" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="set: tsconfig change">
       <created>1684159390280</created>
