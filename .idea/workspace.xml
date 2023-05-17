@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab57acc-0cfe-44dc-bb81-26504193a2b9" name="변경" comment="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용">
-      <change beforePath="$PROJECT_DIR$/react_typescript_noona" beforeDir="false" afterPath="$PROJECT_DIR$/react_typescript_noona" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_typescript_noona/src/model/restaurant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react_typescript_noona/src/model/restaurant.ts" afterDir="false" />
-    </list>
+    <list default="true" id="9ab57acc-0cfe-44dc-bb81-26504193a2b9" name="변경" comment="feat:create type category use pick, create setting type ApiResponse, create setting type MenuApiResponse&#10;&#10;- restaurant.ts 에서 category 타입만 사용하도록 Pick 을 활용해 RestaurantOnlyCategory type 생성&#10;&#10;- restaurant.ts 에서 api 응답에 대한 타입 ApiResponse 생성&#10;- restaurant.ts 에서 api 의 data 에 대한 타입이 어떤 타입이 올지 모르기에 T 제네릭 사용&#10;- api 응답에 대한 data 가 Restaurant type 으로 들어올 경우에 RestaurantApiResponse type 생성&#10;- api 응답에 대한 data 가 Menu type 으로 들어올 경우를 생각해 MenuApiResponse type 생성" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +51,7 @@
       <updated>1684158725439</updated>
       <workItem from="1684158726468" duration="4581000" />
       <workItem from="1684234023777" duration="4200000" />
-      <workItem from="1684334094921" duration="1547000" />
+      <workItem from="1684334094921" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="set: tsconfig change">
       <created>1684159390280</created>
@@ -91,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684249252966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat:create type category use pick, create setting type ApiResponse, create setting type MenuApiResponse&#10;&#10;- restaurant.ts 에서 category 타입만 사용하도록 Pick 을 활용해 RestaurantOnlyCategory type 생성&#10;&#10;- restaurant.ts 에서 api 응답에 대한 타입 ApiResponse 생성&#10;- restaurant.ts 에서 api 의 data 에 대한 타입이 어떤 타입이 올지 모르기에 T 제네릭 사용&#10;- api 응답에 대한 data 가 Restaurant type 으로 들어올 경우에 RestaurantApiResponse type 생성&#10;- api 응답에 대한 data 가 Menu type 으로 들어올 경우를 생각해 MenuApiResponse type 생성">
+      <created>1684336022642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684336022642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +106,7 @@
     <MESSAGE value="feat: 식당 정보 및 메뉴 데이터 생성 및 타입 설정&#10;&#10;- data : 식당 정보 및 메뉴 데이터 생성, model 에 restaurant.ts 에서 작성한 타입 설정&#10;&#10;- model 폴더 생성 후 restaurant.ts 파일에 식당 정보 및 메뉴 데이터에 대한 타입 설정 후 내보내기&#10;&#10;- Store 컴포넌트 생성 후 App.tsx 에 컴포넌트 출력, Store 에서는 식당 정보 및 메뉴 정보를 담고 있음" />
     <MESSAGE value="feat: 주소 변경 기능 추가 및 베스트 메뉴 추가&#10;&#10;- BestMenu 컴포넌트 생성 후 베스트 메뉴 이름" />
     <MESSAGE value="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 메뉴 타입에서 price 타입 제거 및 속성 price 제거&#10;&#10;- BestMenu 컴포넌트에서 OwnProps 에 Omit 을 활용해 Menu 에서 price 제거 및 BestMenu 의 인자 price 삭제 및 App.tsx 에서 속성 price 제거 후 적용" />
+    <MESSAGE value="feat:create type category use pick, create setting type ApiResponse, create setting type MenuApiResponse&#10;&#10;- restaurant.ts 에서 category 타입만 사용하도록 Pick 을 활용해 RestaurantOnlyCategory type 생성&#10;&#10;- restaurant.ts 에서 api 응답에 대한 타입 ApiResponse 생성&#10;- restaurant.ts 에서 api 의 data 에 대한 타입이 어떤 타입이 올지 모르기에 T 제네릭 사용&#10;- api 응답에 대한 data 가 Restaurant type 으로 들어올 경우에 RestaurantApiResponse type 생성&#10;- api 응답에 대한 data 가 Menu type 으로 들어올 경우를 생각해 MenuApiResponse type 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:create type category use pick, create setting type ApiResponse, create setting type MenuApiResponse&#10;&#10;- restaurant.ts 에서 category 타입만 사용하도록 Pick 을 활용해 RestaurantOnlyCategory type 생성&#10;&#10;- restaurant.ts 에서 api 응답에 대한 타입 ApiResponse 생성&#10;- restaurant.ts 에서 api 의 data 에 대한 타입이 어떤 타입이 올지 모르기에 T 제네릭 사용&#10;- api 응답에 대한 data 가 Restaurant type 으로 들어올 경우에 RestaurantApiResponse type 생성&#10;- api 응답에 대한 data 가 Menu type 으로 들어올 경우를 생각해 MenuApiResponse type 생성" />
   </component>
 </project>
